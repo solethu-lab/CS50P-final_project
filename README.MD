@@ -56,7 +56,7 @@ X Role to play? 2
 -----
  | |    7 8 9
 ```
-when he finished he will be promoted to keep playing or abort.
+when player is finished they will be promoted to keep playing or abort.
 ```
 Do you want to carry on playing y/n? 
 ```
@@ -90,4 +90,4 @@ This function simply takes the board dictionaty and iterating overiting while ap
 This function two arguments, board and the player ('X' or 'O') and start comparing between the recent player and the values of the keys horizontally and vertically and diagonaly following the Tic Tac Toe rules.
 #### **TicTacToe() function**:
 This function call all the previous functions seperately first of all it delcares a new board, the current player ('X') and the next player ('O'). then there is a infinite loop that breaks whenever a particular condition is provided, Exception are handled by a message when the user inputs a postition that differes from the board values which ranges from 1-9. After it the **CheckSpot()** function to tell if the value of position (key) is empty or not, after that the board will be updated using **UpdateBoard(board, currentPlayer, position)** after the current player and the board get passed to the function **Winner(board,currentPlayer)** to detect who won or not, finnaly we check if the board is full or not using **checkFullBoard** function if it is full and there is no winner the game stops and print 'game over', the value of the current play and the next player get switched.
-### Author : ElHassen Boumeddiene.
+### Author : Solethu Hlatshwayo.
